@@ -46,7 +46,8 @@ def main():
 	options = Options()
 	options.add_argument('--headless')
 	options.add_argument('--disable-gpu')
-	
+
+	os.chmod('./chromedriver', 0755)
 
 
 
