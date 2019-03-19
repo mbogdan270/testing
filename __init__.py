@@ -61,9 +61,7 @@ def main():
 	pass_test = 1
 	driver = webdriver.Chrome("./chromedriver", options=options)
 	driver.get("http://35.182.179.24:4502/content/we-retail/us/en.html	")
-	#driver.find_element_by_xpath('//*[@id="username"]').send_keys("admin")
-	#driver.find_element_by_xpath('//*[@id="password"]').send_keys("xvfT9T4FRCWV=W@v?=+Q}GHL")
-	#driver.find_element_by_xpath('//*[@id="submit-button"]').click()
+
 	time.sleep(1)
 	titles_name = titles.Titles(driver)
 	#titles.check_first_page()
